@@ -1,0 +1,38 @@
+{% load static %}
+{% load i18n %}
+
+<nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+    <a href="{% url 'store' %}" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <h1 class="m-0">Hoshniyetli</h1>
+    </a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown" href="#">
+                    <img src={% static 'img/icon/language.png' %} alt="">
+                </a>
+                <div class="dropdown-menu bg-light m-0">
+                    <a href={% url 'set-language' 'en' %} class="dropdown-item">En</a>
+                    <a href={% url 'set-language' 'ru' %} class="dropdown-item">Ru</a>
+                    <a href={% url 'set-language' 'tm' %} class="dropdown-item">Tm</a>
+                    <a href={% url 'set-language' 'tr' %} class="dropdown-item">Tr</a>
+                </div>
+            </div>
+            <a href={% url 'store' %} class="nav-item nav-link active">{%trans "Baş"%}</a>
+            <a href={% url 'about' %} class="nav-item nav-link">{%trans "Biz barada"%}</a>
+            <a href={% url 'services' %} class="nav-item nav-link">{%trans "Hyzmatlar"%}</a>
+            <div class="nav-item dropdown">
+                <a href={% url 'products_page' %} class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{%trans "Markalar"%}</a>
+                <div class="dropdown-menu bg-light m-0">
+                    <a href={% url 'products_page' %} class="dropdown-item">Titiz</a>
+                    <a href={% url 'products_page' %} class="dropdown-item">Rorax</a>
+                    <a href={% url 'products_page' %} class="dropdown-item">Modaline</a>
+                </div>
+            </div>
+            <a href={% url 'contacts' %} class="nav-item nav-link">{%trans "Aragatnaşyk"%}</a>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,385 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-29 19:01+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\hoshniyetli\settings.py:120
+msgid "English"
+msgstr ""
+
+#: .\hoshniyetli\settings.py:121
+msgid "Russian"
+msgstr ""
+
+#: .\hoshniyetli\settings.py:122
+msgid "Turkish"
+msgstr ""
+
+#: .\hoshniyetli\settings.py:123
+msgid "Turkmen"
+msgstr ""
+
+#: .\store\templates\store\about.html:32
+msgid "Ýyldan gowrak iş tejribesi"
+msgstr "Годы опыта"
+
+#: .\store\templates\store\about.html:33 .\store\templates\store\store.html:168
+msgid "Hoşniýetli hyzmatdaşlyk merkezi"
+msgstr ""
+
+#: .\store\templates\store\about.html:35
+msgid ""
+"Bazaryň zerurlyklaryny we aýratynlyklaryny doly bilýän köp ýyllyk tejribesi "
+"bolan hünärmenlerimiziň satuw menejerlerimiziň we satuw wekillerimiziň "
+"kömegi bilen, müşderiler bilen üstünlikli aragatnaşyk gurmak üçin uly "
+"tejribämiz bar."
+msgstr ""
+"Благодаря большому штату профессиональных менеджеров по продажам и торговых "
+"представителей с многолетним опытом работы, которые досконально знают "
+"потребности и специфику рынка, у нас есть отработанная схема успешного "
+"взаимодействия с клиентами."
+
+#: .\store\templates\store\about.html:51 .\store\templates\store\store.html:196
+msgid "Müşderlermiz"
+msgstr "Клиенты"
+
+#: .\store\templates\store\about.html:55 .\store\templates\store\store.html:200
+msgid "Ylalaşyklar"
+msgstr "Соглашения"
+
+#: .\store\templates\store\about.html:59 .\store\templates\store\store.html:204
+msgid "Hünärmen sany"
+msgstr "Персонал команды"
+
+#: .\store\templates\store\about.html:63 .\store\templates\store\store.html:208
+msgid "Baýraklarmyz"
+msgstr "Награды"
+
+#: .\store\templates\store\contacts.html:28
+msgid "Biz bilen habarlaşmak"
+msgstr "Свяжитесь с нами"
+
+#: .\store\templates\store\contacts.html:34
+#: .\store\templates\store\store.html:419
+msgid "Adynyz"
+msgstr "Ваше имя"
+
+#: .\store\templates\store\contacts.html:41
+#: .\store\templates\store\store.html:426
+msgid "Email"
+msgstr "Email"
+
+#: .\store\templates\store\contacts.html:48
+#: .\store\templates\store\store.html:433
+msgid "Telefon"
+msgstr "Телефон"
+
+#: .\store\templates\store\contacts.html:55
+#: .\store\templates\store\store.html:440
+msgid "Mowzuk"
+msgstr "Тема"
+
+#: .\store\templates\store\contacts.html:62
+#: .\store\templates\store\store.html:447
+msgid "Maglumat"
+msgstr "Информация"
+
+#: .\store\templates\store\contacts.html:66
+#: .\store\templates\store\store.html:454
+msgid "Ugrat"
+msgstr "Отправить"
+
+#: .\store\templates\store\includes\navbar.html:24
+#: .\store\templates\store\main.html:66
+#: .\store\templates\store\product_detail_titiz.html:41
+#: .\store\templates\store\products_modaline.html:41
+#: .\store\templates\store\products_rorax.html:41
+#: .\store\templates\store\products_titiz.html:41
+msgid "Baş"
+msgstr "Главная"
+
+#: .\store\templates\store\includes\navbar.html:25
+#: .\store\templates\store\main.html:67
+#: .\store\templates\store\product_detail_titiz.html:42
+#: .\store\templates\store\products_modaline.html:42
+#: .\store\templates\store\products_rorax.html:42
+#: .\store\templates\store\products_titiz.html:42
+msgid "Biz barada"
+msgstr "О нас"
+
+#: .\store\templates\store\includes\navbar.html:26
+#: .\store\templates\store\main.html:68
+#: .\store\templates\store\product_detail_titiz.html:43
+#: .\store\templates\store\products_modaline.html:43
+#: .\store\templates\store\products_rorax.html:43
+#: .\store\templates\store\products_titiz.html:43
+msgid "Hyzmatlar"
+msgstr "Услуги"
+
+#: .\store\templates\store\includes\navbar.html:28
+#: .\store\templates\store\main.html:70 .\store\templates\store\main.html:117
+#: .\store\templates\store\product_detail_titiz.html:45
+#: .\store\templates\store\products_modaline.html:45
+#: .\store\templates\store\products_rorax.html:45
+#: .\store\templates\store\products_titiz.html:45
+msgid "Markalar"
+msgstr "Бренды"
+
+#: .\store\templates\store\includes\navbar.html:35
+#: .\store\templates\store\main.html:77
+#: .\store\templates\store\product_detail_titiz.html:52
+#: .\store\templates\store\products_modaline.html:52
+#: .\store\templates\store\products_rorax.html:52
+#: .\store\templates\store\products_titiz.html:52
+msgid "Aragatnaşyk"
+msgstr "Контакт"
+
+#: .\store\templates\store\main.html:93
+msgid "Biziň ofisymyz"
+msgstr "Наш офис"
+
+#: .\store\templates\store\main.html:94
+msgid "Aşgabat ş., G.Bäşimow köçesi,j. 93.   744035"
+msgstr "г. Ашхабад, улица Г. Башимова, в. 93. 744035"
+
+#: .\store\templates\store\main.html:109
+msgid "Telefon Belgi"
+msgstr "Номер телефона"
+
+#: .\store\templates\store\main.html:113
+msgid "E-mail address"
+msgstr "Адрес почты"
+
+#: .\store\templates\store\main.html:134
+msgid "Ähli Hukuklary Goralan."
+msgstr "Все права защищены."
+
+#: .\store\templates\store\services.html:28
+#: .\store\templates\store\store.html:272
+msgid ""
+"Kompaniýamyzyň her geçen gün täzelenmegine, kämilleşmegine we ösmegine "
+"goşant goşýan esasy"
+msgstr "Наша компания постоянно обновляется, совершенствуется и развивается"
+
+#: .\store\templates\store\services.html:29
+#: .\store\templates\store\store.html:273
+msgid "Strategiýalarymyz"
+msgstr "Наши стратегии"
+
+#: .\store\templates\store\services.html:41
+#: .\store\templates\store\store.html:285
+msgid ""
+"Marka, önüm, kanal, bazara girmek we müşderi gatnaşyklaryny dolandyrmak (CRM)"
+msgstr ""
+"Бренд, продукт, канал, доступ к рынку и управление взаимоотношениями с "
+"клиентами (CRM)"
+
+#: .\store\templates\store\services.html:55
+#: .\store\templates\store\store.html:299
+msgid "Sanly marketing we marketing awtomatizasiýasy."
+msgstr "Цифровой маркетинг и автоматизация маркетинга."
+
+#: .\store\templates\store\services.html:70
+#: .\store\templates\store\store.html:314
+msgid "Marketing çykdajylaryny dolandyrmak."
+msgstr "Управление расходами на маркетинг."
+
+#: .\store\templates\store\services.html:85
+#: .\store\templates\store\store.html:329
+msgid "Marketing strategiýasy we çäreleri."
+msgstr "Маркетинговая стратегия и мероприятия."
+
+#: .\store\templates\store\services.html:100
+#: .\store\templates\store\store.html:344
+msgid "Satyş toparynyň okuwy, strategiýasy we netijeliligi."
+msgstr "Обучение отдела продаж, стратегия и эффективность."
+
+#: .\store\templates\store\services.html:115
+#: .\store\templates\store\store.html:360
+msgid "Satyş guramasynyň dizaýny we deňleşdirilmegi."
+msgstr "Планирование и согласование организации продаж."
+
+#: .\store\templates\store\store.html:40
+msgid "Biznesiňizi biz bilen ösdüriň"
+msgstr "Развивайте свой бизнес вместе с нами"
+
+#: .\store\templates\store\store.html:120
+msgid "Satyş awtomatizasiýasy"
+msgstr "Автоматизация продаж"
+
+#: .\store\templates\store\store.html:121
+msgid ""
+"Marka, önüm, kanal, bazara girmek we müşderi gatnaşyklaryny dolandyrmak(CRM)"
+msgstr ""
+"Бренд, продукт, канал, доступ к рынку и управление взаимоотношениями с "
+"клиентами (CRM)"
+
+#: .\store\templates\store\store.html:133
+msgid "Köp ýyllyk tejribe"
+msgstr "Многолетний опыт"
+
+#: .\store\templates\store\store.html:134
+msgid "Marketing çykdajylaryny dolandyrmak"
+msgstr "Управление маркетинговыми расходами"
+
+#: .\store\templates\store\store.html:146
+msgid "Müşderiler bilen aragatnaşyk"
+msgstr "Общение с клиентами"
+
+#: .\store\templates\store\store.html:147
+msgid "Satyş guramasynyň dizaýny we deňleşdirilmegi"
+msgstr "Планирование и согласование организации продаж"
+
+#: .\store\templates\store\store.html:167
+msgid "Ýyldan gowrak tejribesi"
+msgstr "Годы опыта"
+
+#: .\store\templates\store\store.html:169
+msgid ""
+"'Hoşniýetli hyzmatdaşlyk merkezi hojalyk jemgyýeti, Türkmenistanyň ähli "
+"çäginde; Aşgabat şäheri we bäş welaýatlaryň ähli söwda nokatlaryna harydy "
+"ýerlemek boýunça mümkin bolan ähli oňaýly we döwrebap hyzmatlary hödürleýär. "
+"Ýurdumyzyň ähli künjeginde ýerleşýän lomay we bölek satuw zynjyrlaryny we "
+"marketlerini çalt, amatly we ygtybarly harytlar bilen üpjün etmekde tejribä "
+"gaty baý. Biz Şerbet, Halkmarket, Şazada, Desse ýaly öňdebaryjy söwda "
+"zynjyrlarynyň we marketleriniň ählisini ýokary hilli harytlar bilen üpjün "
+"edýäris. Şeýle hem Hyper, Ynamdar ýaly onlaýn platformalarynyň birnäçesi "
+"bilen hyzmatdaşlyk edýäris."
+msgstr ""
+"Хозяйственное общество 'Hoşniýetli hyzmatdaşlyk merkezi' на всей территории "
+"Туркменистана; предлагает все  современные услуги для совершения покупок в "
+"городе Ашхабаде и пяти велаятах. Имеет большой опыт своевременной, удобной и "
+"надежной поставки товаров во все оптовые и розничные сети и рынки страны. Мы "
+"сотрудничаем и поставляем наш товар ведущим торговым сетям, таким как  "
+"Шербет, Халкмаркет, Шазада, Дессе и т.д., а также сотрудничаем с онлайн "
+"платформами как  Гипер, Ынамдар  и т.д."
+
+#: .\store\templates\store\store.html:178
+msgid "Biziň toparymyz"
+msgstr "Наша команда"
+
+#: .\store\templates\store\store.html:179
+msgid ""
+"Şeýle hem Hyper, Ynamdar ýaly onlaýn platformalaryň birnäçesi bilen "
+"hyzmatdaşlyk edýäris "
+msgstr ""
+"Также мы сотрудничаем с несколькими онлайн-платформами, такими как Hyper, "
+"Inamdar"
+
+#: .\store\templates\store\store.html:221
+msgid "Näme Üçin Biz?"
+msgstr "Почему мы?"
+
+#: .\store\templates\store\store.html:222
+msgid "Biziň Artykmaçlygymyz!"
+msgstr "Наши преимущества"
+
+#: .\store\templates\store\store.html:223
+msgid ""
+"Kompaniýanyň dolandyryş işgärleriniň söwda we telekeçiligi "
+"dolandyrmakugrundaky 25 ýyldan gowrak tejribesi . 70-den gowrak ýokary "
+"hünärli işgärleriň bolmagy. Işgärleridolandyrmak ulgamynyň bolmagy. Ähli iri "
+"şäherlerde öz ammarlarymyzyň, harytlaryň maddy-tehnikiüpjünçiligi üçin 20-"
+"dan gowrak ulaglarymyz bolmagy. Ahli söwda nokatlarynyň ýerleşýän "
+"ýerindemaglumat bazasynyň, harytlary hasaba almak we eltip bermek üçin "
+"döwrebap programmalar bilenüpjünçiligi. Türkmenistanda öndürijiler we söwda "
+"nokatlary bilen hyzmatdaşlyk şertnamalarymyz bar."
+msgstr ""
+"Опыт работы управляющего персонала компании в сфере торговли и управления "
+"бизнесом более 25-ти лет. Наличие высококвалифицированного персонала более "
+"70-ти человек, системы управления персоналом, собственных складских "
+"помещений во всех больших городах, автотранспорта более 20-ти единиц для "
+"доставки товара, огромная база данных о расположении всех торговых точек. А "
+"также программное обеспечение для оформления и доставки товара. Существуют "
+"договоренности о сотрудничестве  с производителями и торговыми точками по "
+"всей территории Туркменистана."
+
+#: .\store\templates\store\store.html:236
+#, python-format
+msgid "100%% Kanagatlanarlyk"
+msgstr "100%% гарантировано"
+
+#: .\store\templates\store\store.html:246
+msgid "Işeňňir topar"
+msgstr "Активная команда"
+
+#: .\store\templates\store\store.html:257
+msgid "Döwrabap Enjamlar"
+msgstr "Современные технологии"
+
+#: .\store\templates\store\store.html:375
+msgid "Hyzmatdaşlarymyz"
+msgstr "Наши партнеры"
+
+#: .\store\templates\store\store.html:376
+msgid ""
+"Şeýle hem, kompaniýamyz, harytlary import we eksport etmek boýunça halkara "
+"hyzmatlarynyň we ülňüleriniň talaplaryna doly laýyk gelýän ähli zerur "
+"resminamalaryň ýerine ýetirilmegi bilen haryt daşamagy öz içine alýan "
+"birnäçe hyzmatlary hödürleýär."
+msgstr ""
+"Так же наша компания предоставляет спектр услуг в области импорта и экспорта "
+"грузов, в который входит перевозка грузов с оформлением всех необходимых "
+"сопроводительных документов в полном соответствии с требованиями "
+"международных норм и стандартов."
+
+#: .\store\templates\store\store.html:383
+msgid ""
+"Uzak wagtdan bäri kompaniýamyz 'Titiz' markasynyň resmi distribýuteri bolup "
+"durýar. 'Titiz' markasy bolsa öz gezeginde arassalaýyş we ýuwujy serişdeler "
+"harytlaryny öndürmekde Türkiýede öňdebaryjy kompaniýalarynyň biridir."
+msgstr ""
+"На протяжении долгого времени наша компания является официальным "
+"дистрибютором компании Titiz, которая в свою очередь является одним из "
+"лидеров в Турции по производству чистящих и моющих средств."
+
+#: .\store\templates\store\store.html:384
+#: .\store\templates\store\store.html:390
+#: .\store\templates\store\store.html:396
+msgid "Goşmaça"
+msgstr "Более"
+
+#: .\store\templates\store\store.html:389
+msgid ""
+"Uzak wagtdan bäri kompaniýamyz 'Rorax' markasynyň resmi distribýuteri bolup "
+"durýar. 'Rorax' markasy bolsa öz gezeginde arassalaýyş we ýuwujy serişdeler "
+"harytlaryny öndürmekde Türkiýede öňdebaryjy kompaniýalarynyň biridir."
+msgstr ""
+"На протяжении долгого времени наша компания является официальным "
+"дистрибютором компании Rorax, которая в свою очередь является одним из "
+"лидеров в Турции по производству чистящих и моющих средств."
+
+#: .\store\templates\store\store.html:395
+msgid ""
+"Uzak wagtdan bäri kompaniýamyz 'Modaline' markasynyň resmi distribýuteri "
+"bolup durýar. 'Modaline' markasy bolsa öz gezeginde arassalaýyş we ýuwujy "
+"serişdeler harytlaryny öndürmekde Türkiýede öňdebaryjy kompaniýalarynyň "
+"biridir."
+msgstr ""
+"На протяжении долгого времени наша компания является официальным "
+"дистрибютором компании Modaline, которая в свою очередь является одним из "
+"лидеров в Турции по производству чистящих и моющих средств."
+
+#: .\store\templates\store\store.html:413
+msgid "Biziň bilen aragatnaşykda boluň"
+msgstr "Общение с клиентами"
+
+#~ msgid "about"
+#~ msgstr "O нас"
