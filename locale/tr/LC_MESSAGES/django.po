@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-29 19:01+0500\n"
+"POT-Creation-Date: 2023-05-17 12:46+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,19 +18,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: .\hoshniyetli\settings.py:120
+#: .\hoshniyetli\settings.py:122
 msgid "English"
 msgstr ""
 
-#: .\hoshniyetli\settings.py:121
+#: .\hoshniyetli\settings.py:123
 msgid "Russian"
 msgstr ""
 
-#: .\hoshniyetli\settings.py:122
+#: .\hoshniyetli\settings.py:124
 msgid "Turkish"
 msgstr ""
 
-#: .\hoshniyetli\settings.py:123
+#: .\hoshniyetli\settings.py:125
 msgid "Turkmen"
 msgstr ""
 
@@ -38,7 +38,8 @@ msgstr ""
 msgid "Ýyldan gowrak iş tejribesi"
 msgstr "Yılı aşkın iş tecrübesi"
 
-#: .\store\templates\store\about.html:33 .\store\templates\store\store.html:168
+#: .\store\templates\store\about.html:33
+#: .\store\templates\store\store.html:168
 msgid "Hoşniýetli hyzmatdaşlyk merkezi"
 msgstr ""
 
@@ -54,19 +55,23 @@ msgstr ""
 "temsilcilerimizYardımıyla, müşterilerle başarılı bir şekilde iletişim kurmak "
 "için harika.Tecrübemiz var."
 
-#: .\store\templates\store\about.html:51 .\store\templates\store\store.html:196
+#: .\store\templates\store\about.html:51
+#: .\store\templates\store\store.html:196
 msgid "Müşderlermiz"
 msgstr "Müşterilerimiz"
 
-#: .\store\templates\store\about.html:55 .\store\templates\store\store.html:200
+#: .\store\templates\store\about.html:55
+#: .\store\templates\store\store.html:200
 msgid "Ylalaşyklar"
 msgstr "Anlaşmalar"
 
-#: .\store\templates\store\about.html:59 .\store\templates\store\store.html:204
+#: .\store\templates\store\about.html:59
+#: .\store\templates\store\store.html:204
 msgid "Hünärmen sany"
 msgstr "Profesyonel personal"
 
-#: .\store\templates\store\about.html:63 .\store\templates\store\store.html:208
+#: .\store\templates\store\about.html:63
+#: .\store\templates\store\store.html:208
 msgid "Baýraklarmyz"
 msgstr "Ödüllerimiz"
 
@@ -105,16 +110,16 @@ msgid "Ugrat"
 msgstr "Gönder"
 
 #: .\store\templates\store\includes\navbar.html:24
-#: .\store\templates\store\main.html:66
+#: .\store\templates\store\main.html:71
 #: .\store\templates\store\product_detail_titiz.html:41
 #: .\store\templates\store\products_modaline.html:41
 #: .\store\templates\store\products_rorax.html:41
 #: .\store\templates\store\products_titiz.html:41
 msgid "Baş"
-msgstr "Ana"
+msgstr "Ana sayfa"
 
 #: .\store\templates\store\includes\navbar.html:25
-#: .\store\templates\store\main.html:67
+#: .\store\templates\store\main.html:72
 #: .\store\templates\store\product_detail_titiz.html:42
 #: .\store\templates\store\products_modaline.html:42
 #: .\store\templates\store\products_rorax.html:42
@@ -123,7 +128,7 @@ msgid "Biz barada"
 msgstr "Hakkımızda"
 
 #: .\store\templates\store\includes\navbar.html:26
-#: .\store\templates\store\main.html:68
+#: .\store\templates\store\main.html:73
 #: .\store\templates\store\product_detail_titiz.html:43
 #: .\store\templates\store\products_modaline.html:43
 #: .\store\templates\store\products_rorax.html:43
@@ -132,7 +137,7 @@ msgid "Hyzmatlar"
 msgstr "Hizmetler"
 
 #: .\store\templates\store\includes\navbar.html:28
-#: .\store\templates\store\main.html:70 .\store\templates\store\main.html:117
+#: .\store\templates\store\main.html:75 .\store\templates\store\main.html:152
 #: .\store\templates\store\product_detail_titiz.html:45
 #: .\store\templates\store\products_modaline.html:45
 #: .\store\templates\store\products_rorax.html:45
@@ -141,7 +146,7 @@ msgid "Markalar"
 msgstr ""
 
 #: .\store\templates\store\includes\navbar.html:35
-#: .\store\templates\store\main.html:77
+#: .\store\templates\store\main.html:82
 #: .\store\templates\store\product_detail_titiz.html:52
 #: .\store\templates\store\products_modaline.html:52
 #: .\store\templates\store\products_rorax.html:52
@@ -149,23 +154,23 @@ msgstr ""
 msgid "Aragatnaşyk"
 msgstr "İletişim"
 
-#: .\store\templates\store\main.html:93
+#: .\store\templates\store\main.html:128
 msgid "Biziň ofisymyz"
 msgstr "Ofisimiz"
 
-#: .\store\templates\store\main.html:94
+#: .\store\templates\store\main.html:129
 msgid "Aşgabat ş., G.Bäşimow köçesi,j. 93.   744035"
 msgstr "Aşkabat şehri, G. Bashimov caddesi,  93. 744035"
 
-#: .\store\templates\store\main.html:109
+#: .\store\templates\store\main.html:144
 msgid "Telefon Belgi"
 msgstr "Telefon Numara"
 
-#: .\store\templates\store\main.html:113
+#: .\store\templates\store\main.html:148
 msgid "E-mail address"
 msgstr "E-posta adresi"
 
-#: .\store\templates\store\main.html:134
+#: .\store\templates\store\main.html:169
 msgid "Ähli Hukuklary Goralan."
 msgstr "Bütün hakları korunmuştur"
 

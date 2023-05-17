@@ -47,9 +47,9 @@
                 </div>       
             </div>
             
-            <div class="col-lg-2 px-5 text-end">
+            <div class="col-lg-5 px-5 text-end">
                     <span><a style="color: white;" href="{% url 'set-language' 'tm' %}"><img src="{% static 'turkmenistan.png' %}" alt="Turkmen"></a></span>
-                    <span><a style="color: white;" href="{% url 'set-language' 'en' %}"><img src="{% static 'usa.png' %}" alt="English"></a></span>
+                    <span><a style="color: white;" href="{% url 'set-language' 'en' %}"><img src="{% static 'uk.png' %}" alt="English"></a></span>
                     <span><a style="color: white;" href="{% url 'set-language' 'tr' %}"><img src="{% static 'turkey.png' %}" alt="Turkish"></a></span>
                     <span><a style="color: white;" href="{% url 'set-language' 'ru' %}"><img src="{% static 'russia.png' %}" alt="Russian">  </a></span>
             </div>
@@ -80,7 +80,8 @@
                 </div>
             <a href={% url 'contacts' %} class="nav-item nav-link">{%trans "Aragatnaşyk"%}</a>
             </div>
-            <div class="drop-down">
+
+            <!-- <div class="drop-down">
                 <div class="wrapper">
                     <img src="{% static 'turkmenistan.png' %}" alt="">
                     <div class="selected">Türkmençe</div>
@@ -95,7 +96,7 @@
                     </div>
 
                     <div class="item">
-                        <img src="{% static 'usa.png' %}">
+                        <img src="{% static 'uk.png' %}">
                         <div class="text">English</div>
                     </div>
 
@@ -108,8 +109,10 @@
                         <img src="{% static 'turkey.png' %}">
                         <div class="text">Turkce</div>
                     </div>
+                </div>
 
-            </div>
+            </div> -->
+
         </div>
     </nav>
     {% endblock navbar %}
