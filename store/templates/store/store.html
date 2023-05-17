@@ -76,7 +76,7 @@
 
         {% for titiz in titiz_products_3 %}
         <div class="swiper-slide">
-            <img src={{titiz.image.url}}/>
+            <img src="{% static '' %}{{titiz.image}}"/>
             <a href="{% url 'product-detail-titiz' titiz.id %}">
                 <p>{{titiz.product_name|capfirst}}</p>
             </a>

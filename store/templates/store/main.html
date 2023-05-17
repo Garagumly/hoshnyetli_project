@@ -7,12 +7,15 @@
 <head>
     <meta charset="utf-8">
     <title>hoshniyetli</title>
+    
+    
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href={% static '' %} rel="icon">
+    <link rel="icon" type="image/x-icon" href=" {%static 'favicon.ico' %}">
+    {% comment %} <link href={% static '' %} rel="icon"> {% endcomment %}
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,7 +46,8 @@
                     <span><a href="mailto:info@hoshniyetli.com.tm" style="color:white;">info@hoshniyetli.com.tm</a></span>
                 </div>       
             </div>
-            <div class="col-lg-5 px-5 text-end">
+            
+            <div class="col-lg-2 px-5 text-end">
                     <span><a style="color: white;" href="{% url 'set-language' 'tm' %}"><img src="{% static 'turkmenistan.png' %}" alt="Turkmen"></a></span>
                     <span><a style="color: white;" href="{% url 'set-language' 'en' %}"><img src="{% static 'usa.png' %}" alt="English"></a></span>
                     <span><a style="color: white;" href="{% url 'set-language' 'tr' %}"><img src="{% static 'turkey.png' %}" alt="Turkish"></a></span>
@@ -75,6 +79,36 @@
                     </div>
                 </div>
             <a href={% url 'contacts' %} class="nav-item nav-link">{%trans "Aragatnaşyk"%}</a>
+            </div>
+            <div class="drop-down">
+                <div class="wrapper">
+                    <img src="{% static 'turkmenistan.png' %}" alt="">
+                    <div class="selected">Türkmençe</div>
+                </div>
+                <i class="ri-arrow-drop-down-fill"></i>
+
+                <div class="list">
+
+                    <div class="item">
+                        <img src="{% static 'turkmenistan.png' %}">
+                        <div class="text">Türkmençe</div>
+                    </div>
+
+                    <div class="item">
+                        <img src="{% static 'usa.png' %}">
+                        <div class="text">English</div>
+                    </div>
+
+                    <div class="item">
+                        <img src="{% static 'russia.png' %}">
+                        <div class="text">Russian</div>
+                    </div>
+
+                    <div class="item">
+                        <img src="{% static 'turkey.png' %}">
+                        <div class="text">Turkce</div>
+                    </div>
+
             </div>
         </div>
     </nav>

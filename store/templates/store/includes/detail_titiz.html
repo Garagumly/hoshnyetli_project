@@ -70,7 +70,7 @@
 					<div class="col-md-5 col-md-push-2">
 						<div id="product-main-img">
 							<div class="product-preview">
-								<img src="{{ product.image.url }}" alt="{{product.barcode_number}}">
+								<img src="{% static '' %}{{ product.image }}" alt="{{product.barcode_number}}">
 							</div>
 						</div>
 					</div>
@@ -195,7 +195,7 @@
 						<a href="{% url 'product-detail-titiz' product.id %}">
 						<div class="product">
 							<div class="product-img">
-								<img src="{{ product.image.url }}" alt="">
+								<img src="{% static '' %}{{ product.image }}" alt="">
 							</div>
 							<div class="product-body">
 								<p class="product-category">{{product.brand}}</p>

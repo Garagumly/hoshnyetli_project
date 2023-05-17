@@ -1,7 +1,7 @@
 {% load static %}
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">`
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -218,12 +218,14 @@
 
 									<div class="product">
 										<div class="product-img">
-											<img src="{{ product.image.url }}" alt="{{product.barcode_number}}">
+											<img src=" {% static '' %}{{ product.image}}" alt="{{product.barcode_number}}">
+											<!-- <img src=" {{ product.image.url }}" alt="{{product.barcode_number}}"> -->
 										</div>
 										<div class="product-body">
 											<p class="product-category">{{product.category}}</p>
 											<h3 class="product-name">{{product.product_name}}</h3>
-
+											<h3> {{ product.image.url }}</h3>
+											<h3 class="product-name"> {% static '' %}{{ product.image}}AAAA</h3>
 											<div>
 											<p  style="text-align:center;">{{product.product_model}}</p>
 											</div>
