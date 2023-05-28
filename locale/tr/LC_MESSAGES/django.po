@@ -134,7 +134,7 @@ msgstr "Hakkımızda"
 #: .\store\templates\store\products_rorax.html:43
 #: .\store\templates\store\products_titiz.html:43
 msgid "Hyzmatlar"
-msgstr "Hizmettller"
+msgstr "HHizmettller"
 
 #: .\store\templates\store\includes\navbar.html:28
 #: .\store\templates\store\main.html:75 .\store\templates\store\main.html:152
