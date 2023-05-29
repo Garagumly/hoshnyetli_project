@@ -29,7 +29,7 @@ class Product(models.Model):
     gross_weight = models.CharField(max_length=50,null=True)
     dimensions = models.CharField(max_length=50,null=True)
     barcode_number = models.IntegerField(null=True)
-    image = models.ImageField(upload_to="images", null=True, blank=False)
+    image = models.ImageField(upload_to="", null=True, blank=False)
 
     def __str__(self):
         return self.product_name

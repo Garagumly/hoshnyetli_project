@@ -10,8 +10,8 @@
 
 <!-- Icon Font Stylesheet -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet"> -->
-<link href="{% static 'css/https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css'%}" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+<!-- <link rel="stylesheet" href="{% static 'css/font/bootstrap-icons.css'%}" > -->
 
 <!-- Libraries Stylesheet -->
 <link href="{%static 'lib/animate/animate.min.css'%}" rel="stylesheet">
@@ -76,27 +76,28 @@
    <div class="swiper mySwiper">
     <div class="swiper-wrapper">
 
-        {% for titiz in titiz_products_3 %}
+        {% for titiz in titiz_products_4 %}
         <div class="swiper-slide">
-            <img src="{% static '' %}{{titiz.image}}"/>
             <a href="{% url 'product-detail-titiz' titiz.id %}">
+            <img src="{{titiz.image.url}}"/>
                 <p>{{titiz.product_name|capfirst}}</p>
             </a>
             
           </div>
         {% endfor %}
-        {% for rorax in rorax_products_3 %}
+        {% for rorax in rorax_products_4 %}
         <div class="swiper-slide">
-            <img src={{rorax.image.url}} />
             <a href="{% url 'product-detail-rorax' rorax.id %}">
+            <img src={{rorax.image.url}} />
                 <p>{{rorax.product_name|capfirst}}</p>
             </a>
           </div>
         {% endfor %}
-        {% for modaline in modaline_products_3 %}
+        {% for modaline in modaline_products_4 %}
         <div class="swiper-slide">
-            <img src={{modaline.image.url}} />
             <a href="{% url 'product-detail-modaline' modaline.id %}">
+            <img src={{modaline.image.url}} />
+            
                 <p>{{modaline.product_name|capfirst}}</p>
             </a>
           </div>

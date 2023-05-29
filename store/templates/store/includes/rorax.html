@@ -218,14 +218,12 @@
 
 									<div class="product">
 										<div class="product-img">
-											<img src=" {% static '' %}{{ product.image}}" alt="{{product.barcode_number}}">
+											<img src="{{ product.image.url}}" alt="{{product.barcode_number}}">
 											<!-- <img src=" {{ product.image.url }}" alt="{{product.barcode_number}}"> -->
 										</div>
 										<div class="product-body">
 											<p class="product-category">{{product.category}}</p>
 											<h3 class="product-name">{{product.product_name}}</h3>
-											<h3> {{ product.image.url }}</h3>
-											<h3 class="product-name"> {% static '' %}{{ product.image}}AAAA</h3>
 											<div>
 											<p  style="text-align:center;">{{product.product_model}}</p>
 											</div>
@@ -278,7 +276,7 @@
 		<!-- /SECTION -->
 
 		<!-- jQuery Plugins -->
-		<script type="text/javascript" src="{% static 'product-filter.js' %}"></script>
+		<!-- <script type="text/javascript" src="{% static 'product-filter.js' %}"></script> -->
 		{% comment %} <script src="{% static 'prodyct_static/js/jquery.min.js' %} "></script>
 		<script src="{% static 'prodyct_static/js/bootstrap.min.js' %}"></script>
 		<script src="{% static 'prodyct_static/js/slick.min.js' %}"></script>

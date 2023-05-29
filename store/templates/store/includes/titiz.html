@@ -79,7 +79,7 @@
 							</div>
 						</div> {% endcomment %}
 
-						{% comment %} <form <form method="GET" action=".">>
+						{% comment %}  <form method="GET" action=".">
 
 						
 						<label for="category"><h4 class="aside-title">Category</h4></label>
@@ -97,6 +97,7 @@
 
 						<form method="GET" action=" {% url 'products-page' %} ">
 							{{from}}
+							<br>
 							<br>
 							<input type="submit" value="Filter" class="btn btn-success">
 						</form>
@@ -287,7 +288,7 @@
 							</ul>
 						</div> {% endcomment %}
 						<div class="store-filter clearfix">
-							<span class="store-qty">Showing 20-{{count}} products</span>
+							<!-- <span class="store-qty">Showing 20-{{count}} products</span> -->
 							<ul class="store-pagination">
 								{% if page.has_previous %}
 								<li><a href="{% url 'products-page' %}?page={{ page.previous_page_number }} &category={{category}}"><i class="fa fa-angle-left"></i></a></li>

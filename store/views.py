@@ -127,14 +127,14 @@ def try_page(request):
 
 
 def store(request):
-    titiz_products_3 = Product.objects.filter(brand__name="Titiz")[:3]
-    rorax_products_3 = Product.objects.filter(brand__name="Rorax")[:3]
-    modaline_products_3 = Product.objects.filter(brand__name="Modaline")[:3]
+    titiz_products_4 = Product.objects.filter(brand__name="Titiz")[:4]
+    rorax_products_4 = Product.objects.filter(brand__name="Rorax")[:4]
+    modaline_products_4 = Product.objects.filter(brand__name="Modaline")[:4]
 
     context = {
-        "titiz_products_3": titiz_products_3,
-        "rorax_products_3": rorax_products_3,
-        "modaline_products_3": modaline_products_3
+        "titiz_products_4": titiz_products_4,
+        "rorax_products_4": rorax_products_4,
+        "modaline_products_4": modaline_products_4
     }
     return render(request, "store/store.html", context)
 
@@ -155,12 +155,6 @@ def brands(request):
 def contacts(request):
     context = {}
     return render(request, "store/contacts.html", context)
-
-def check(request):
-    languages = []
-    if request.method == 'POST':
-        languages = request.POST.getlist('languages')
-    return render(request, 'checkbox.html',{'languages':languages})
 
 
 def services(request):
