@@ -138,8 +138,6 @@ msgid "Aşgabat ş., G.Bäşimow köçesi,j. 93.   744035"
 msgstr "Ashagabt city   G.Bashimov st. b.93  744035"
 
 #: .\store\templates\store\main.html:145
-#, fuzzy
-#| msgid "Telefon Belgi"
 msgid "Telefon belgi"
 msgstr "Phone number"
 
@@ -232,17 +230,6 @@ msgid "Ýyldan gowrak tejribesi"
 msgstr "Years of experience"
 
 #: .\store\templates\store\store.html:172
-#, fuzzy
-#| msgid ""
-#| "'Hoşniýetli hyzmatdaşlyk merkezi hojalyk jemgyýeti, Türkmenistanyň ähli "
-#| "çäginde; Aşgabat şäheri we bäş welaýatlaryň ähli söwda nokatlaryna harydy "
-#| "ýerlemek boýunça mümkin bolan ähli oňaýly we döwrebap hyzmatlary "
-#| "hödürleýär. Ýurdumyzyň ähli künjeginde ýerleşýän lomay we bölek satuw "
-#| "zynjyrlaryny we marketlerini çalt, amatly we ygtybarly harytlar bilen "
-#| "üpjün etmekde tejribä gaty baý. Biz Şerbet, Halkmarket, Şazada, Desse "
-#| "ýaly öňdebaryjy söwda zynjyrlarynyň we marketleriniň ählisini ýokary "
-#| "hilli harytlar bilen üpjün edýäris. Şeýle hem Hyper, Ynamdar ýaly onlaýn "
-#| "platformalarynyň birnäçesi bilen hyzmatdaşlyk edýäris."
 msgid ""
 "'Hoşniýetli hyzmatdaşlyk merkezi' hojalyk jemgyýeti, Türkmenistanyň ähli "
 "çäginde; Aşgabat şäheri we bäş welaýatlaryň ähli söwda nokatlaryna harydy "
@@ -282,16 +269,6 @@ msgid "Biziň Artykmaçlygymyz!"
 msgstr "Few Reasons Why People Choosing Us!"
 
 #: .\store\templates\store\store.html:226
-#, fuzzy
-#| msgid ""
-#| "Kompaniýanyň dolandyryş işgärleriniň söwda we telekeçiligi "
-#| "dolandyrmakugrundaky 25 ýyldan gowrak tejribesi . 70-den gowrak ýokary "
-#| "hünärli işgärleriň bolmagy. Işgärleridolandyrmak ulgamynyň bolmagy. Ähli "
-#| "iri şäherlerde öz ammarlarymyzyň, harytlaryň maddy-tehnikiüpjünçiligi "
-#| "üçin 20-dan gowrak ulaglarymyz bolmagy. Ahli söwda nokatlarynyň ýerleşýän "
-#| "ýerindemaglumat bazasynyň, harytlary hasaba almak we eltip bermek üçin "
-#| "döwrebap programmalar bilenüpjünçiligi. Türkmenistanda öndürijiler we "
-#| "söwda nokatlary bilen hyzmatdaşlyk şertnamalarymyz bar."
 msgid ""
 "Kompaniýanyň dolandyryş işgärleriniň söwda we telekeçiligi dolandyrmak "
 "ugrundaky 25 ýyldan gowrak tejribesi bolamgy. 70-den gowrak ýokary hünärli "
@@ -338,12 +315,6 @@ msgstr ""
 "with global documentation norms and standards."
 
 #: .\store\templates\store\store.html:386
-#, fuzzy
-#| msgid ""
-#| "Uzak wagtdan bäri kompaniýamyz 'Titiz' markasynyň resmi distribýuteri "
-#| "bolup durýar. 'Titiz' markasy bolsa öz gezeginde arassalaýyş we ýuwujy "
-#| "serişdeler harytlaryny öndürmekde Türkiýede öňdebaryjy kompaniýalarynyň "
-#| "biridir."
 msgid ""
 "Uzak wagtdan bäri kompaniýamyz \"Titiz\" markasynyň resmi distribýuteri "
 "bolup durýar. \"Titiz\" markasy bolsa öz gezeginde arassalaýyş we ýuwujy "
@@ -360,12 +331,6 @@ msgid "Goşmaça"
 msgstr "More"
 
 #: .\store\templates\store\store.html:392
-#, fuzzy
-#| msgid ""
-#| "Uzak wagtdan bäri kompaniýamyz 'Rorax' markasynyň resmi distribýuteri "
-#| "bolup durýar. 'Rorax' markasy bolsa öz gezeginde arassalaýyş we ýuwujy "
-#| "serişdeler harytlaryny öndürmekde Türkiýede öňdebaryjy kompaniýalarynyň "
-#| "biridir."
 msgid ""
 "Uzak wagtdan bäri kompaniýamyz \"Rorax\" markasynyň resmi distribýuteri "
 "bolup durýar. \"Rorax\" markasy bolsa öz gezeginde arassalaýyş we ýuwujy "
@@ -376,12 +341,6 @@ msgstr ""
 "one of top manufacturers of cleaning supplies and detergents in Turkiye "
 
 #: .\store\templates\store\store.html:398
-#, fuzzy
-#| msgid ""
-#| "Uzak wagtdan bäri kompaniýamyz 'Modaline' markasynyň resmi distribýuteri "
-#| "bolup durýar. 'Modaline' markasy bolsa öz gezeginde arassalaýyş we ýuwujy "
-#| "serişdeler harytlaryny öndürmekde Türkiýede öňdebaryjy kompaniýalarynyň "
-#| "biridir."
 msgid ""
 "Uzak wagtdan bäri kompaniýamyz \"Modaline\" markasynyň resmi distribýuteri "
 "bolup durýar. \"Modaline\" markasy bolsa öz gezeginde arassalaýyş we ýuwujy "

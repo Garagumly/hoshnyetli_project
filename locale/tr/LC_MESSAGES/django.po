@@ -51,7 +51,7 @@ msgid ""
 msgstr ""
 "Pazar ihtiyaçları ve özellikleri hakkında kapsamlı bilgi ile uzun yıllara "
 "dayanan deneyimiz var. Profesyonel satış müdürlerimiz ve satış "
-"temsilcilerimizYardımıyla, müşterilerle başarılı bir şekilde iletişim kurmak "
+"temsilcilerimiz yardımıyla, müşterilerle başarılı bir şekilde iletişim kurmak "
 "için harika tecrübemiz var."
 
 #: .\store\templates\store\about.html:51 .\store\templates\store\store.html:199
@@ -197,7 +197,7 @@ msgstr "Satış organizasyonu tasarımı ve uyumu"
 
 #: .\store\templates\store\store.html:42
 msgid "Biznesiňizi biz bilen ösdüriň"
-msgstr "Ticaretinizi bizimle büyütün"
+msgstr "Ticaretinizi bizimle geliştirin"
 
 #: .\store\templates\store\store.html:123
 msgid "Satyş awtomatizasiýasy"
@@ -240,7 +240,7 @@ msgid ""
 "edýäris. Şeýle hem Hyper, Ynamdar ýaly onlaýn platformalarynyň birnäçesi "
 "bilen hyzmatdaşlyk edýäris."
 msgstr ""
-"'Hoşniýetli hyzmatdaşlyk merkezi' Türkmenistan boyunca; Aşkabat "
+"'Hoşniýetli hyzmatdaşlyk merkezi' Türkmenistan boyunca Aşkabat "
 "şehri ve beş velayette alışveriş için mümkün olan tüm uygun ve modern hizmetleri "
 "sunmaktadır. Ülkenin her yerinde bulunan toptan ve perakende zincir ve "
 "marketlere hızlı, rahat ve güvenilir mal tedarik etme konusunda geniş "
