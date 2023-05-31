@@ -56,9 +56,9 @@ def product_detail_modaline(request, id):
 
 
 def products_titiz(request):
-    products_titiz = Product.objects.filter(brand__name="Titiz")    
+    products_titiz = Product.objects.filter(brand__name="Titiz")
     product_filter = ProductFilter(request.GET, queryset=products_titiz)
-    titiz_paginator = Paginator(product_filter.qs, 18) 
+    titiz_paginator = Paginator(product_filter.qs, 18)
     page_list = request.GET.get('page')
     page = titiz_paginator.get_page(page_list)
     category = Category.objects.all().exclude(name="auto cleaning products")
@@ -72,11 +72,10 @@ def products_titiz(request):
         products_titiz = products_titiz.filter(brand__name=brand)
 
     context = {
-        "count" : titiz_paginator.count,
-        # "page" : page,
-        "page" : page,
-        "filtered_prodcuts" : product_filter.qs,
-        'from' : product_filter.form,
+        "count": titiz_paginator.count,
+        "page": page,
+        "filtered_prodcuts": product_filter.qs,
+        'from': product_filter.form,
         "products_titiz": products_titiz,
         "cats": Product.objects.distinct().values('category__name', 'category__id').exclude(category__name="auto cleaning products"),
         'brands': Product.objects.distinct().values('brand__name', 'brand__id')

@@ -77,26 +77,26 @@
 
 })(jQuery);
 
-const dropdown = document.querySelector('.drop-down');
+// const dropdown = document.querySelector('.drop-down');
 
-const list = document.querySelector(".list");
+// const list = document.querySelector(".list");
 
-const selected = document.querySelector('.selected');
+// const selected = document.querySelector('.selected');
 
-const selectedImg = document.querySelector('.selectedImg');
+// const selectedImg = document.querySelector('.selectedImg');
 
-dropdown.addEventListener('click', () => {
-    list.classList.toggle('show');
-})
+// dropdown.addEventListener('click', () => {
+//     list.classList.toggle('show');
+// })
 
-list.addEventListener('click', (e) => {
-    const img = e.target.querySelector('img');
-    const text = e.target.querySelector('.text');
+// list.addEventListener('click', (e) => {
+//     const img = e.target.querySelector('img');
+//     const text = e.target.querySelector('.text');
 
-    selectedImg.src = img.src;
-    selected.innerHTML = text.innerHTML;
+//     selectedImg.src = img.src;
+//     selected.innerHTML = text.innerHTML;
 
-})
+// })
 
 // list.addEventListener('click', (e) => {
 //     const img = e.target.queryselector('img');
